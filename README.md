@@ -25,29 +25,25 @@ The interface is bilingual (Arabic and English) with full right-to-left support,
 
 ## Getting started
 
-1. Open `index.html` in a browser, or serve the folder with any static server:
+1. Download the repository files into one folder.
+2. Open `index.html` in a browser, or serve the folder with any static server:
 
    ```bash
    python3 -m http.server 8080
    ```
 
-2. Add your GitHub token.
-3. Create a deployment, upload your files or a ZIP, and publish.
+3. Add your GitHub token.
+4. Create a deployment, upload your files or a ZIP, and publish.
 
-## Host it on GitHub Pages
-
-1. Push this repository to GitHub.
-2. Go to **Settings > Pages**.
-3. Select **Deploy from a branch**, branch `main`, folder `/ (root)`.
-4. Your app will be live at `https://<username>.github.io/<repo>/`.
-
-## Project structure
+## Project files
 
 ```
-index.html        Entry point
-css/style.css     Styles
-js/app.js         Application logic
-assets/logo.png   Logo and favicon
+index.html    Entry point
+style.css     Styles
+app.js        Application logic
+logo.png      Logo and favicon
+README.md     Documentation
+LICENSE       MIT License
 ```
 
 ## Contributing
